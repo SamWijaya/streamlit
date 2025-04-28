@@ -12,7 +12,7 @@ df = st.session_state.df
 
 # Input text
 user_input = st.text_area("Tuliskan review (terserah apa saja):",
-                          "Avanza bahan bakar nya boros banget")
+                          "Aerox punika lariipun cepet lan lincah, sayang boten mlebet pasar Indonesia")
 
 # Check if we have trained model stored in session state
 if st.session_state.trained_model is None:
